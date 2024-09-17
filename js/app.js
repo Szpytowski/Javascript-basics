@@ -1,109 +1,11 @@
-// const PURPLE_COLOR = '#000';
-//
-// let loggedInUserName = 'John';
-// loggedInUserName = 'Bob';
-// console.log(loggedInUserName);
-//
-// const websiteVisitorsNumber = 123;
-// // come up with a variable name for the
-// // name of the person
-// // who is currently visiting
-// // the website
-//
-// const legalDrinkingAge = 18123.12;
-// const factAboutJohn = 'John is my friend';
-//
-// const isTheSidebarOpened = false;
-
-// const user = {
-//     firstName: 'John',
-//     lastName: 'Smith',
-//     age: 12
-// }
-// const name = user.firstName; // 'John'
-//
-// console.log(name);
-//
-// const fruits = ['Apple', 'Banana'];
-//
-// const myFavoriteFruit = fruits[1];
-//
-// console.log(myFavoriteFruit); // Apple
-//
-//
-// let currentlyEatenVegetableName = 'Carrot';
-// currentlyEatenVegetableName = null;
-
-
-// const name;
-// console.log(name); // undefined
-//
-// const isTheSidebarOpened = true;
-//
-// if (isTheSidebarOpened === true) {
-//     console.log('The sidebar is opened');
-// }
-//
-//
-// const myAge = 17;
-// const isAdult = myAge >= 18;
-//
-//
-//
-// if (isAdult) {
-//     console.log('It is legal for me to drink');
-// } else {
-//     console.log('It is not legal for me to drink');
-// }
-
-
-/*
-* Create two variables called width and height .
-* Each of those variables should hold some number.
-* Then, create a new variable that holds the area of a rectangle,
-*  calculated based on the width and height variables. Print it to the console.
-* */
-
-/*
-const value = 8 / 2; //
-// * mnożenie
-// / dzielenie
-// + dodawanie
-// - odejmowanie
-
-const width = 17;
-const height = 17;
-const rectangleArea = width * height;
-
-console.log(rectangleArea);
-
-/*
-* Create two variables called firstNumber and secondNumber.
-* Assign each of them with a different number. Write a program that swaps both values.
-* */
-
-/*
-let firstNumber = 12;
-let secondNumber = 14;
-
-const swapNumber = firstNumber;
-firstNumber = secondNumber;
-secondNumber = swapNumber;
-
-console.log('secondNumber', secondNumber);
-console.log('firstNumber', firstNumber);
-*/
-
-// 1 //
 let width = 10;
 let height = 10;
 
-let area = width*height;
+let area = width * height;
 console.log('area', area);
 
-// 2 //
-let firstNumber= 11;
-let secondNumber= 22;
+let firstNumber = 11;
+let secondNumber = 22;
 
 const swapNumber = firstNumber; // if I use 'let' or 'const' i get the same result, are they both correct to use here?//
 firstNumber = secondNumber;
@@ -112,7 +14,6 @@ secondNumber = swapNumber;
 console.log('secondNumber', secondNumber);
 console.log('firstNumber', firstNumber);
 
-// 3 //
 let physicsGrade = 3.8;
 let mathGrade = 4.5;
 let englishGrade = 4.7;
@@ -127,7 +28,6 @@ if (passedGrade) {
     console.log('Try harder!');
 }
 
-// 4 //
 let currentAge = 30;
 const retirenmentAgeInPoland = 67;
 let yearsLeftToRetirenment = retirenmentAgeInPoland;
@@ -136,12 +36,9 @@ yearsLeftToRetirenment = retirenmentAgeInPoland - currentAge;
 
 console.log(yearsLeftToRetirenment);
 
-// 5 //
 const isPayingVAT = true;
 const VATRateInPoland = 0.23;
 const incomeTaxRate = 0.12;
-let monthlyIncome = 3500;
-let taxToPay = 0;
 
 if (isPayingVAT) {
     taxToPay = monthlyIncome * VATRateInPoland;
@@ -151,7 +48,6 @@ taxToPay = taxToPay + monthlyIncome * incomeTaxRate;
 
 console.log('tax to pay: ' + taxToPay);
 
-// 6 //
 let isSunny = false;
 
 if (isSunny) {
@@ -160,29 +56,24 @@ if (isSunny) {
     console.log("you might need an umbrella.");
 }
 
-// 7 //
-let currentMonth = 9
 
-if (currentMonth <4 || currentMonth === 12) {
+if (currentMonth < 4 || currentMonth === 12) {
     console.log("it's winter");
 } else {
     console.log("it's not winter");
 }
 
-// 8 //
 let personWeight = 66
-let personHeight  = 1.74
+let personHeight = 1.74
 
-let BMI = personWeight / (personHeight * personHeight)
 console.log("BMI", BMI)
 
-if (BMI =>18.5 | BMI <= 25) {
+if (BMI => 18.5 | BMI <= 25) {
     console.log("Healthy");
 } else if (BMI < 18.5) {
     console.log("Unhealthy");
 }
 
-// 9 //
 let votersAge = 27;
 
 if (votersAge >= 18) {
@@ -191,7 +82,6 @@ if (votersAge >= 18) {
     console.log("Can't vote");
 }
 
-// 10 //
 let currentColor = "yellow";
 
 if (currentColor === "red") {
@@ -204,7 +94,6 @@ if (currentColor === "red") {
     console.log("Invalid color");
 }
 
-// 11 //
 let month = 9;
 
 if (month === 1) {
@@ -233,7 +122,6 @@ if (month === 1) {
     console.log("Dec");
 }
 
-// 12 //
 let number = 15;
 
 if (number % 3 === 0 && number % 5 === 0) {
@@ -246,13 +134,11 @@ if (number % 3 === 0 && number % 5 === 0) {
     console.log("Not divisible by 3 or 5");
 }
 
-// 13 //
 let radius = 5;
 
 let circleArea = Math.PI * radius * radius;
 console.log("The area of the circle is: " + circleArea);
 
-// 14 //
 let studentScore = 95;
 
 if (studentScore >= 90) {
@@ -268,7 +154,6 @@ if (studentScore >= 90) {
 }
 console.log("The student's grade is: " + grade);
 
-// 15 //
 let carSpeed = 70;
 let speedLimit = 65;
 
@@ -278,17 +163,14 @@ if (carSpeed <= speedLimit) {
     console.log("Speeding!");
 }
 
-// 16 //
 let age = 21;
-let isAdult= false;
+let isAdult = false;
 
-if(age >= 18) {
+if (age >= 18) {
     isAdult = true;
 }
 
-alert(isAdult)
 
-// 17 //
 const driversAge = 21;
 const hasDrivingLicense = true;
 
