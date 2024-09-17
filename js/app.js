@@ -182,3 +182,4 @@ if (canDriveLegally) {
 } else {
     console.log("The user cannot drive legally.");
 }
+
